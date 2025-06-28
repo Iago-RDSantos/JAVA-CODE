@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Don't change this line
+        int n1 = scanner.nextInt(); // Don't change this line
+        int n2 = scanner.nextInt(); // Don't change this line
+        scanner.nextLine(); // Don't change this line
+        String op = scanner.nextLine(); // Don't change this line
+        
+        // Write your code below
+        double result = 0;
+        switch (op){
+
+            case "+":
+                result = n1 + n2;
+                break;
+
+            case "-":
+                result = n1 - n2;
+                break;
+
+            case "/":
+                result = n1 / n2;
+                break;
+
+            case "*":
+                result = n1 * n2;
+                break;
+        }
+        
